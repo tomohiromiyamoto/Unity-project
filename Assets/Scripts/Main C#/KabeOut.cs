@@ -15,6 +15,6 @@ public class KabeOut : MonoBehaviour {
     }
 
     private void OnCollisionEnter(Collision collision) {
-        GameObject.Find("Master").GetComponent<GameMaster>().GameOver("落としてしまうとは情けない...");
+        GameObject.Find("Master").GetComponent<GameMaster>().GameOver("チャレンジ失敗•••");
     }
 }
